@@ -89,7 +89,7 @@ h2 {
     font-weight: 400;
     font-size: 1.85em;
     line-height: 1.125em;
-    display: flex;
+    display: block;
     align-items: center;
     text-align: center;
     color: #000000;

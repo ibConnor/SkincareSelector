@@ -5,8 +5,8 @@ html {
   font-family: 'Open Sans', sans-serif;
 }
 
-p{
-  text-align: center;
+.p{
+  padding: 0px 100px 100px;
 }
 
 .top{
@@ -160,7 +160,10 @@ color: #000000;
 footer {
   width: 100%;
   display: flex;
-   justify-content: space-around;
+  justify-content: space-around;
+  /* position: fixed;
+  left: 0;
+  bottom: 0; */
 }
 
 footer .tagline {

@@ -5,6 +5,10 @@ html {
   font-family: 'Open Sans', sans-serif;
 }
 
+p{
+  text-align: center;
+}
+
 header {
   background: #FCFCFC;
   position: absolute;

@@ -5,6 +5,13 @@ html {
   font-family: 'Open Sans', sans-serif;
 }
 
+.skin101
+{
+  display: block;
+  margin: auto auto 100px auto;
+  width: 90%;
+}
+
 .p{
   padding: 0px 100px 100px;
 }

@@ -9,6 +9,11 @@ p{
   text-align: center;
 }
 
+.top{
+  display: flex;
+  justify-content: space-evenly;
+}
+
 header {
   background: #FCFCFC;
   position: absolute;

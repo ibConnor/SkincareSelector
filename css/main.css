@@ -5,8 +5,48 @@ html {
   font-family: 'Open Sans', sans-serif;
 }
 
+.title{
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 40px;
+  display: flex;
+  align-items: center;
+}
+
+h3 {
+  padding-left: 22.5%;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.81em;
+  line-height: 1.125em;
+  align-items: center;
+  text-align: left;
+  color: #000000;
+}
+
+#sidenav{
+  margin-left: 5%;
+  padding: 1% 2% 1% 2%;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #000;
+  border-radius: 2%;
+  position: absolute;
+  top: 21%;
+  left: 40px;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 40px;
+}
+
 .info{
-  width: 825px;
+  padding-right: 10%;
+  padding-left: 22.5%;
   height: 166px;
   font-family: 'Open Sans';
   font-style: normal;
@@ -15,7 +55,6 @@ html {
   line-height: 33px;
   text-align: left;
   color: #000000;
-  padding-left: 40%;
 }
 
 .skin101
@@ -131,19 +170,6 @@ h2 {
     text-align: center;
     color: #000000;
     padding: 1.25em;
-}
-
-h3 {
-  font-family: 'Open Sans';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 1.81em;
-  line-height: 1.125em;
-  display: block;
-  align-items: center;
-  text-align: left;
-  color: #000000;
-  padding: 0 0 0.5% 40%;
 }
 
 .middleCTA {

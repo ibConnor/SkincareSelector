@@ -5,6 +5,19 @@ html {
   font-family: 'Open Sans', sans-serif;
 }
 
+.info{
+  width: 825px;
+  height: 166px;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 33px;
+  text-align: left;
+  color: #000000;
+  padding-left: 40%;
+}
+
 .skin101
 {
   border: #000;
@@ -108,7 +121,6 @@ nav ul li a {
 }
 
 h2 {
-
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 400;
@@ -119,6 +131,19 @@ h2 {
     text-align: center;
     color: #000000;
     padding: 1.25em;
+}
+
+h3 {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.81em;
+  line-height: 1.125em;
+  display: block;
+  align-items: center;
+  text-align: left;
+  color: #000000;
+  padding: 0 0 0.5% 40%;
 }
 
 .middleCTA {

@@ -9,13 +9,17 @@ html {
   font-family: 'Baloo Chettan 2', serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 34px;
+  font-size: 42px;
   line-height: 49px;
+  padding: 50% 0 50% 0;
+  text-align: center;
+  display: block;
+  color: #000000;
   }
 
 .brands{
-  /* margin-left: 1%; */
-  width: 229px;
+  margin: 1%;
+  width: 230px;
   height: auto;
   background: #E7EEF1;
   border-radius: 30px 30px 30px 30px;
@@ -23,10 +27,10 @@ html {
 }
 
 #brands-buttons{
-  margin-left: 9%;
   display: flex;
   margin-bottom: 2%;
-  justify-content: space-evenly;
+  justify-content: center;
+  align-items: stretch;
 }
 
 .lm{

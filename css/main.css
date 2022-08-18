@@ -5,6 +5,46 @@ html {
   font-family: 'Open Sans', sans-serif;
 }
 
+.brandText {
+  font-family: 'Baloo Chettan 2', serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 34px;
+  line-height: 49px;
+  }
+
+.brands{
+  /* margin-left: 1%; */
+  width: 229px;
+  height: auto;
+  background: #E7EEF1;
+  border-radius: 30px 30px 30px 30px;
+  align-items: center;
+}
+
+#brands-buttons{
+  margin-left: 9%;
+  display: flex;
+  margin-bottom: 2%;
+  justify-content: space-evenly;
+}
+
+.lm{
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 65px;
+  display: block;
+  text-align: center;
+  color: #000000;
+  width: 229px;
+  height: 64px;
+  background: #FEFEFE;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 0px 0px 10px 10px;
+}
+
 .title{
   font-family: 'Open Sans';
   font-style: normal;
@@ -224,7 +264,7 @@ color: #000000;
 }
 
 body{
-  height: 100vh;
+  /* height: 100vh; */
   display: flex;
   flex-direction: column;
 }

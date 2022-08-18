@@ -101,20 +101,25 @@ h3 {
   color: #000000;
 }
 
+.body-parent{
+  display: flex;
+}
+
 #sidenav{
+  width: 30%;
   padding: 1% 2% 1% 2%;
   border-style: none;
   border-width: 2px;
   border-color: #000;
   border-radius: 2%;
-  position: absolute;
+  float: left;
   top: 35%;
   left: 10px;
   font-family: 'Open Sans';
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
-  line-height: 40px;
+  line-height: 27px;
 }
 
 .info{

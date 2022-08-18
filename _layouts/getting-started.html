@@ -9,23 +9,17 @@
 
 <div class="main">
     <h2 class="title">Getting Started</h2>
-    <h3 class="sub-title">Overview</h3>
 </div>
-    <ul id="sidenav">
-    <li class="nav-title">Getting Started</li>
-    {% for member in site.data.nav %}
-        <li>
-            <a href="https://github.com/{{
-                member.navName }}">
-                {{ member.navName}}
-            </a>
-        </li>
-    {% endfor %}
-    </ul>
-    <p class="info">Skincare Selector helps you discover what products are right for you, teaches you about the best  routines, and educates you about the latest trends. Whether you're just starting to learn about skincare or you've been using products for years, we've got everything you need to improve your routine and get better-looking skin.</p>
 
-    {% include brands.html %}
-
+<div class="body-parent">
+    {% include sidenav.html %}
+    <div class="body">
+        <h3 class="sub-title">Overview</h3>
+    
+        <p class="info">Skincare Selector helps you discover what products are right for you, teaches you about the best  routines, and educates you about the latest trends. Whether you're just starting to learn about skincare or you've been using products for years, we've got everything you need to improve your routine and get better-looking skin.</p>
+        {% include brands.html %}
+    </div>
+</div>
     {% include footer.html %}
 </body>
 

@@ -1,0 +1,51 @@
+<ul id="sidenav">
+    <li class="nav-title">Getting Started</li>
+    {% for member in site.data.nav-section1 %}
+        <li>
+            <a href="https://github.com/{{
+                member.navName }}">
+                {{ member.navName}}
+            </a>
+        </li>
+    {% endfor %}
+    <br>
+    <li class="nav-title">What is your skin type</li>
+    {% for member in site.data.nav-section2 %}
+        <li>
+            <a href="https://github.com/{{
+                member.navName }}">
+                {{ member.navName}}
+            </a>
+        </li>
+    {% endfor %}
+    <br>
+    <li class="nav-title">Knowing your skin</li>
+    {% for member in site.data.nav-section3 %}
+    <li>
+        <a href="https://github.com/{{
+            member.navName }}">
+            {{ member.navName}}
+        </a>
+    </li>
+    {% endfor %}
+    <br>
+    <li class="nav-title">Skincare concerns</li>
+    {% for member in site.data.nav-section4 %}
+    <li>
+        <a href="https://github.com/{{
+            member.navName }}">
+            {{ member.navName}}
+        </a>
+    </li>
+    {% endfor %}
+    <br>
+    <li class="nav-title">Perscriptive skincare</li>
+    {% for member in site.data.nav-section5 %}
+    <li>
+        <a href="https://github.com/{{
+            member.navName }}">
+            {{ member.navName}}
+        </a>
+    </li>
+    {% endfor %}
+</ul>

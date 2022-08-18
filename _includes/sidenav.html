@@ -2,8 +2,8 @@
     <li class="nav-title">Getting Started</li>
     {% for member in site.data.nav-section1 %}
         <li>
-            <a href="https://github.com/{{
-                member.navName }}">
+            <a href="getting-started/{{
+                member.navLink }}">
                 {{ member.navName}}
             </a>
         </li>
@@ -12,18 +12,18 @@
     <li class="nav-title">What is your skin type</li>
     {% for member in site.data.nav-section2 %}
         <li>
-            <a href="https://github.com/{{
+            <a href="getting-started/{{
                 member.navName }}">
                 {{ member.navName}}
             </a>
         </li>
     {% endfor %}
     <br>
-    <li class="nav-title">Knowing your skin</li>
+    <li class="nav-title">Understanding products</li>
     {% for member in site.data.nav-section3 %}
     <li>
-        <a href="https://github.com/{{
-            member.navName }}">
+        <a href="getting-started/{{
+            member.navLink }}">
             {{ member.navName}}
         </a>
     </li>
@@ -32,7 +32,7 @@
     <li class="nav-title">Skincare concerns</li>
     {% for member in site.data.nav-section4 %}
     <li>
-        <a href="https://github.com/{{
+        <a href="getting-started/{{
             member.navName }}">
             {{ member.navName}}
         </a>
@@ -42,7 +42,7 @@
     <li class="nav-title">Perscriptive skincare</li>
     {% for member in site.data.nav-section5 %}
     <li>
-        <a href="https://github.com/{{
+        <a href="getting-started/{{
             member.navName }}">
             {{ member.navName}}
         </a>

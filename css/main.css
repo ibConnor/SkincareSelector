@@ -5,6 +5,19 @@ html {
   font-family: 'Open Sans', sans-serif;
 }
 
+h4 {
+  margin-top: 1%;
+  padding-left: 10%;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.81em;
+  line-height: 1.125em;
+  align-items: center;
+  text-align: left;
+  color: #000000;
+}
+
 #beginners-guide
 {
   margin: auto;

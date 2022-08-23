@@ -2,7 +2,7 @@
     <li class="nav-title">Getting Started</li>
     {% for member in site.data.nav-section1 %}
         <li>
-            <a href="getting-started/{{
+            <a href="{{
                 member.navLink }}">
                 {{ member.navName}}
             </a>
@@ -12,8 +12,8 @@
     <li class="nav-title">What is your skin type</li>
     {% for member in site.data.nav-section2 %}
         <li>
-            <a href="getting-started/{{
-                member.navName }}">
+            <a href="../{{
+                member.navLink }}">
                 {{ member.navName}}
             </a>
         </li>
@@ -22,7 +22,7 @@
     <li class="nav-title">Understanding products</li>
     {% for member in site.data.nav-section3 %}
     <li>
-        <a href="getting-started/{{
+        <a href="../getting-started/{{
             member.navLink }}">
             {{ member.navName}}
         </a>
@@ -33,7 +33,7 @@
     {% for member in site.data.nav-section4 %}
     <li>
         <a href="getting-started/{{
-            member.navName }}">
+            member.navLink }}">
             {{ member.navName}}
         </a>
     </li>

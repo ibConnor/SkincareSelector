@@ -1,27 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
 {% include head.html %}
-
+  
 <body>
 
 {% include header.html %}
 
 
 <div class="main">
-<h2>What's your skin type?</h2>
-<a href="normalskin"><button class="button">Normal</button></a>
-<a href="combinationskin"><button class="button">Combination</button></a>
-<br>
-<a href="dryskin"><button class="button">Dry</button></a>
-<a href="oilyskin"><button class="button">Oily</button></a>
+    <h2 class="title">What's Your Skin Type?</h2>
 </div>
 
-<br>
+<div class="body-parent">
+    {% include sidenav.html %}
+    <div class="body">
+        {% include top.html %}
+        {{ content }}
+    </div>
+</div>
 
-{% include breadcrumbs.html %}
-
-{% include footer.html %}
-
+<div class="flex"><button id="selector-button">Start using the skincare selector</button></div>
+    {% include footer.html %}
 </body>
 
 

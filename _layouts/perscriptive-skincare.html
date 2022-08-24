@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+{% include head.html %}
+  
+<body>
+
+{% include header.html %}
+
+
+<div class="main">
+    <h2 class="title">Perscriptive Skincare</h2>
+</div>
+
+<div class="body-parent">
+    {% include sidenav.html %}
+    <div class="body">
+        {{ content }}
+    </div>
+</div>
+
+<div class="flex"><button id="selector-button">Start using the skincare selector</button></div>
+    {% include footer.html %}
+</body>
+
+
+</html>

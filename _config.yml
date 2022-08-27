@@ -27,15 +27,6 @@ description: >- # this means to ignore newlines until "baseurl:"
 twitter_username: jekyllrb
 github_username:  jekyll
 Skincarenumb: CeraVe
-# oil-based-cleaser: Oil-based cleanser
-# cleanser: Cleanser
-# exfoliator: Exfoliator
-# toner: Toner
-# essence: Essence
-# serum: Serum
-# sheet-mask: Sheet Mask
-# eye-cream: Eye Cream
-# moisturiser: Moisturiser
 
 # Build settings
 theme: minima

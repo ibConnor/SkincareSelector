@@ -41,6 +41,27 @@ Skincarenumb: CeraVe
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-last-modified-at
+
+timezone: Europe/London
+
+jekyll_compose:
+  post_default_front_matter:
+    last_modified_at: 
+    permalink: 
+    description:
+    image:
+    published: true
+    sitemap: true
+    excerpt_separator: <!--more-->
+    categories:
+    tags:
+
+  # Optional. The default date format, used if none is specified in the tag.
+last-modified-at:
+    date-format: '%d-%b-%y'
 
 # Exclude from processing.
 # The following items will not be processed, by default.

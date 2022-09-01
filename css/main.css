@@ -5,6 +5,26 @@ html {
   font-family: 'Open Sans', sans-serif;
 }
 
+.login-register {
+  margin: 0 5% 0 5%;
+}
+
+#login-register {
+  /* Log In | Register */
+  position: absolute;
+  width: 244.39px;
+  height: 35px;
+  right: 2%;
+  top: 25px;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 33px;
+  text-align: right;
+  color: #000000;
+}
+
 h4 {
   margin-top: 1%;
   padding-left: 10%;

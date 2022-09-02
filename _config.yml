@@ -35,6 +35,7 @@ plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-last-modified-at
+  - jekyll-youtube
 
 timezone: Europe/London
 

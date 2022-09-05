@@ -391,7 +391,7 @@ body{
 }
 
 footer {
-  margin-top: auto;
+  margin-top: 5%;
   width: 100%;
   display: flex;
   justify-content: space-around;

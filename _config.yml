@@ -36,6 +36,14 @@ plugins:
   - jekyll-sitemap
   - jekyll-last-modified-at
   - jekyll-youtube
+  - pagemaster
+
+collections:
+  videos:
+    output: true
+    source: videos.csv
+    id_key: title
+    layout: post
 
 timezone: Europe/London
 

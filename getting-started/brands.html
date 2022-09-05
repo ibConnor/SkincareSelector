@@ -1,0 +1,14 @@
+---
+layout: getting-started
+---
+
+<h3 class="sub-title">Brands</h3>
+<p class=info>
+    <ul>
+        {% for member in site.data.skincare %}
+            <li>
+                    {{ member.brandName}}
+            </li>
+        {% endfor %}
+    </ul>
+</p>

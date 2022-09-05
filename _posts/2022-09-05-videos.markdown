@@ -1,8 +1,11 @@
 ---
-layout: getting-started
+layout: post
+title:  "blog"
+date:   2022-07-20 01:13:29 +0100
+categories: routine
+# featured: https://raw.githubusercontent.com/ibConnor/SkincareSelector/main/assets/image-slider.png
 ---
 
-<h3 class="sub-title">Routines</h3>
 {% for member in site.data.videos %}
             <iframe width="560" height="315" src="{{member.link}}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 {% endfor %}

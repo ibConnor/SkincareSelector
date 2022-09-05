@@ -5,6 +5,29 @@ html {
   font-family: 'Open Sans', sans-serif;
 }
 
+.socials{
+  display: flex;
+  justify-content: center;
+}
+
+.social-link{
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.bottom{
+  justify-items: center;
+  width: 90%;
+  border:#606060;
+  border-width: 1px;
+  border-style: solid none none none;
+  margin-top: 1%;
+  display: grid;
+  justify-content: center;
+  align-self: center;
+  padding: 1%;
+}
+
 .login-register {
   margin: 0 5% 0 5%;
 }
@@ -14,7 +37,7 @@ html {
   position: absolute;
   width: 244.39px;
   height: 35px;
-  right: 2%;
+  right: 5%;
   top: 25px;
   font-family: 'Open Sans';
   font-style: normal;
@@ -23,6 +46,7 @@ html {
   line-height: 33px;
   text-align: right;
   color: #000000;
+  display: block;
 }
 
 h4 {
@@ -244,13 +268,9 @@ h3 {
 }
 
 header {
-  background: #FCFCFC;
-  position: absolute;
-  top: 0;
-  width: 100%;
-  margin: 0;
-  padding: 0;
-  display: flex;
+  justify-items: center;
+  width: 90%;
+  align-self: center;
 }
 
 header h1 {
@@ -260,7 +280,6 @@ header h1 {
     font-size: 46px;
     line-height: 82px;
     color: #000000;
-    padding-left: 2vw;
 }
 
 header h1 a {
@@ -292,7 +311,7 @@ header .mainCTA:hover {
 }
 
 nav {
-    padding-top: 86px;
+    padding-top: 0.25%;
     width: 100%;
     text-align: center;
 }
@@ -385,7 +404,6 @@ color: #000000;
 }
 
 body{
-  /* height: 100vh; */
   display: flex;
   flex-direction: column;
 }

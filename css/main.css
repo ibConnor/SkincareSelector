@@ -72,6 +72,17 @@ h4 {
   margin-bottom: 5%;
 }
 
+.videos{
+  display: flex;
+  flex-wrap: wrap;
+  /* justify-content: center; */
+  align-items: center;
+}
+
+iframe{
+  margin: 1%;
+}
+
 .flex{
   display: flex;
   justify-content: center;
